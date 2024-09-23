@@ -251,8 +251,18 @@ in the light theme
 .nav__logo {
   padding-top: 1rem;
   color: var(--first-color);
-  font-weight: var(--font-medium);
+  /* font-weight: var(--font-medium); */
+  font-size: 40px;
   transition: 0.4s;
+  /* font-family: "Caveat", cursive; */
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  /* font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
 }
 
 .nav__logo:hover {
@@ -949,6 +959,9 @@ in the light theme
 .footer__title,
 .footer__link {
   color: var(--body-color);
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .footer__title {
