@@ -334,18 +334,30 @@ in the light theme
 }
 
 .home__img {
-  width: 160px;
+  /* width: 160px; */
+  width: 220px;
+  height: 300px;
+  /* border-radius: 10rem 10rem 1rem 1rem; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to bottom,
+    hsla(var(--first-hue), 40%, 16%) 60%,
+    transparent 100%
+  );
 }
 
 .home__handle {
   justify-self: center;
-  width: 190px;
-  height: 293px;
-  background: linear-gradient(
+  width: 220px;
+  height: 300px;
+  /* background: linear-gradient(
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
     hsla(var(--first-hue), var(--sat), var(--lig), 0.2)
-  );
-  border-radius: 10rem 10rem 1rem 1rem;
+  ); */
+  /* border-radius: 10rem 10rem 1rem 1rem; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -478,6 +490,7 @@ in the light theme
 
 .about__description {
   margin-bottom: 2rem;
+  text-align: justify;
 }
 /* try */
 .about__button {
@@ -1028,12 +1041,14 @@ in the light theme
   }
 
   .home__handle {
-    width: 150px;
-    height: 253px;
+    width: 220px;
+    height: 300px;
   }
 
   .home__img {
-    width: 130px;
+    /* width: 16px; */
+    width: 220px;
+    height: 300px;
   }
 
   .about__info {
@@ -1153,12 +1168,14 @@ in the light theme
   }
 
   .home__handle {
-    width: 290px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
   }
 
   .home__img {
-    width: 220px;
+    /* width: 220px; */
+    width: 300px;
+    height: 500px;
   }
 
   .home__social-link {
